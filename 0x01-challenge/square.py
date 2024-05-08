@@ -3,8 +3,8 @@
 
 class square():
     """Define class square"""
-    width = 0
-    height = 0
+    __width = 0
+    __height = 0
 
 
     def __init__(self, *args, **kwargs):
