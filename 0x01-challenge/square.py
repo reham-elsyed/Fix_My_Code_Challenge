@@ -1,10 +1,11 @@
 #!/usr/bin/python3
+""" Method to define class"""
 
 class square():
-    
+    """Define class square"""
     width = 0
 
-    
+
     def __init__(self, *args, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
